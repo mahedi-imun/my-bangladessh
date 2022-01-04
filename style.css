@@ -17,7 +17,10 @@ h2{
 }
 h3{
     font-size: 30px;
-    color: red;
+    color: green;
+}
+p{
+    margin:0 5px 10px;
 }
 
 .container{
@@ -51,4 +54,37 @@ h3{
     border-radius: 5px;
 
 }
+.section-two,.section-three,.section-four{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.all-divisitions {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.divisition{
+    width: 300px;
+    height: 550px;
+    box-shadow: 10px 10px 40px gray;
 
+}
+.divisition img {
+    width: 100%;
+}
+.divisition a{
+    text-decoration: none;
+    padding: 5px 20px;
+    background-color: red;
+    color: #fff;
+}
+hr{
+    margin-bottom: 100px;
+}
+footer{
+    text-align: center;
+    color:black;
+    margin-bottom: 100px;
+}
